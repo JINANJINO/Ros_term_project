@@ -27,3 +27,12 @@ src
 
 여기서 ```src/ros_term_package/ros_term_package```의 위치에 소스코드 작성해 주시면 됩니다.
 message 관련 패키지는 ```src/msg_interface```에 있습니다.
+
+- Custom message 저장 시
+
+|Directory| Custom message |
+|--------------|--------|
+| `msg`    | Topic |
+| `srv`  | Service |
+| `Action`  | Action |
+| `CMakeList.txt` | 의존성 메세지들 추가 |
